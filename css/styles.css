@@ -34,12 +34,22 @@ a {
     margin-bottom: 16px;
 }
 
-.footer-logo .logo-part{
+.footer-logo .logo-part,
+.footer-text {
     color: #f4f4fd;
 }
 
 .nav-link,
-.hero-button {
+.hero-button,
+.contacts-link,
+.benefits,
+.user,
+.features,
+.user-main,
+.footer-text,
+.benefits-subtitle,
+.user-subtitle,
+.features-subtitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,9 +69,6 @@ a {
 }
 
 .contacts-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455
 }
 
@@ -74,7 +81,10 @@ a {
     text-align: center;
 }
 
-.hero-main {
+.hero-main,
+.benefits-main,
+.user-main,
+.features-main {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -96,48 +106,28 @@ a {
     background-color: #404bbf;
 }
 
- .benefits,
- .user,
- .features,
- .footer-text,
- .user-main {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
- }
-
- .benefits-subtitle {
-    font-weight: 500;
+ .benefits-subtitle,
+ .user-subtitle,
+ .features-subtitle {
     font-size: 20px;
     line-height: 1.2;
-    color: #2e2f42;
  }
 
  .user {
-    background-color: #f4f4fd;;
+    background-color: #FFFFFF;
  }
 
+
+.benefits-main,
 .user-main,
 .features-main {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
 
 .footer-text {
+    font-weight: 400;
     color: #f4f4fd;
 }
-
-.user-subtitle,
-.features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
