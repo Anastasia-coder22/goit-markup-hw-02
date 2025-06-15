@@ -45,9 +45,7 @@ a {
 .user-text,
 .features-subtitle,
 .features-text,
-.footer-text,
-.user-main,
-.features-main {
+.footer-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -127,6 +125,7 @@ a {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
  .user {
