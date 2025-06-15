@@ -65,10 +65,22 @@ a {
     color: #434455
 }
 
-.hero-section{
+.hero,
+.page-footer {
     background-color: #2e2f42;
+}
+
+.hero {
     text-align: center;
-    
+}
+
+.hero-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
 .hero-button{
@@ -84,22 +96,11 @@ a {
     background-color: #404bbf;
 }
 
-.hero-main {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-.page-footer {
-    background-color: #2e2f42;
- }
-
  .benefits,
  .user,
  .features,
- .footer-text {
+ .footer-text,
+ .user-main {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -112,19 +113,31 @@ a {
     color: #2e2f42;
  }
 
- .user-section {
-    background-color: #f4f4fd;
+ .user {
+    background-color: #f4f4fd;;
  }
 
 .user-main,
 .features-main {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .footer-text {
     color: #f4f4fd;
 }
+
+.user-subtitle,
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
