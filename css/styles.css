@@ -91,6 +91,8 @@ a {
 }
 
 .hero-button {
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -122,9 +124,14 @@ a {
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
  .user {
+    background-color: #F4F4FD;
+ }
+
+.user-item {
     background-color: #FFFFFF;
  }
 
@@ -132,3 +139,5 @@ a {
     font-weight: 400;
     color: #f4f4fd;
 }
+
+
