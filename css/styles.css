@@ -22,12 +22,12 @@ a {
     color: #4d5ae5; 
 }
 
-.header-logo {
-    margin-right: 76px;
-}
-
 .header-logo .logo-part {
     color: #2e2f42;
+}
+
+.header-logo {
+    margin-right: 76px;
 }
 
 .footer-logo {
@@ -40,16 +40,13 @@ a {
 }
 
 .nav-link,
-.hero-button,
-.contacts-link,
-.benefits,
-.user,
-.features,
-.user-main,
-.footer-text,
 .benefits-subtitle,
+.benefits-text,
 .user-subtitle,
-.features-subtitle {
+.user-text,
+.features-subtitle,
+.features-text,
+.footer-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -57,7 +54,7 @@ a {
     color: #2e2f42;
 }
 
-.nav-link:hover, 
+.nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
@@ -82,9 +79,9 @@ a {
 }
 
 .hero-main,
-.benefits-main,
 .user-main,
-.features-main {
+.features-main,
+.benefits-main {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -93,7 +90,7 @@ a {
     color: #fff;
 }
 
-.hero-button{
+.hero-button {
     letter-spacing: 0.04em;
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -106,26 +103,30 @@ a {
     background-color: #404bbf;
 }
 
- .benefits-subtitle,
- .user-subtitle,
- .features-subtitle {
+.benefits-subtitle,
+.user-subtitle,
+.features-subtitle {
     font-size: 20px;
     line-height: 1.2;
- }
+}
 
- .user {
-    background-color: #FFFFFF;
- }
+.benefits-text,
+.user-text,
+.features-text {
+    font-weight: 400;
+    color: #434455;
+}
 
-
-.benefits-main,
 .user-main,
 .features-main {
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
-    text-transform: capitalize;
 }
+
+ .user {
+    background-color: #FFFFFF;
+ }
 
 .footer-text {
     font-weight: 400;
