@@ -66,6 +66,8 @@ a {
 }
 
 .contacts-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455
 }
 
@@ -114,7 +116,8 @@ a {
 
 .benefits-text,
 .user-text,
-.features-text {
+.features-text,
+.footer-text {
     font-weight: 400;
     color: #434455;
 }
@@ -135,9 +138,6 @@ a {
     background-color: #FFFFFF;
  }
 
-.footer-text {
-    font-weight: 400;
-    color: #f4f4fd;
-}
-
-
+ .footer-text {
+    color: #F4F4FD;
+ }
