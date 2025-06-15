@@ -38,7 +38,8 @@ a {
     color: #f4f4fd;
 }
 
-.nav-link {
+.nav-link,
+.hero-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -61,9 +62,69 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455
 }
 
- .page-footer {
+.hero-section{
+    background-color: #2e2f42;
+    text-align: center;
+    
+}
+
+.hero-button{
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+.hero-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.page-footer {
     background-color: #2e2f42;
  }
+
+ .benefits,
+ .user,
+ .features,
+ .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ }
+
+ .benefits-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+ }
+
+ .user-section {
+    background-color: #f4f4fd;
+ }
+
+.user-main,
+.features-main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
